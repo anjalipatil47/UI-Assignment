@@ -1,0 +1,13 @@
+.div1{
+    border:0.25;
+    border-color: ;
+}
+
+body{
+    background-color:cadetblue;
+    color:black;
+}
+.container {
+    margin: auto;
+    width: 350px;
+    text-align: center;
