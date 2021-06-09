@@ -1,42 +1,42 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> personal Details</title>
-        <link rel="stylesheet" href="style.css">
- </head>
-<body>
+        <title>Demo6</title>
+    </head>
+    <body>
+        <form action="=results.html" method="GET">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required>
 
-    <div id="div1" style="border:0.5cm; border:solid; border-color:white;height:8cm; width:7cm; color:">
-    <b>Emplyoment Details</b>
-    <p>Employee NO:88335</p>
-    <p>anjali patil</p>
-    <p>Service Line:<br>
-  <p>SL_Digital Commerce</p> 
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
 
-  <p> Unit:<br>
-    <p>Digital Commerce</p> 
+            </div>
+            <div>
+                <label for="date">Date</label>
+                <input type="date" name="date" id="date" >
 
-    <p> Area:<p>
-        <p>TTIL-Noida</p> 
+            </div>
 
-    </p>
-</div>
+            <div>
+                <label for="age">Age</label>
+                <input type="number" name="age" id="age" min="1" max="50">
 
-<div id="div2" style="border:0.5cm; border:solid; border-color:white;height:8cm; width:7cm; color:">
-    <b>Personal information</b>
-    <p>Gender: Female</p>
-    <p>Birthday:23 may</p>
-   
-  
-<p>other details:<br>
-    <p>.passport/Visa Details</p>
-    <p>Family Details</p>
+            </div>
 
-</p>
- 
-  
-    </div>
+            <div>
+                <label>Password</label>
+                <input type ="password" name="password">
 
-</body>
 
+            </div>
+            <button type="reset">Reset</button>
+            <button type="submit">submit</button>
+
+        </form>
+        <script src="js/app.js"></script>
+    </body>
 </html>
